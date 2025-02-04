@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #e6f0ff;  /* Changed to a deeper, more contrasting blue */
+    background-color: #dde9ff;  /* Changed to a more intense blue */
     font-family: 'Roboto', sans-serif;
     min-height: 100vh;
     color: #333;
@@ -81,7 +81,7 @@ p {
 .video-section {
     width: 100%;
     padding: 2rem 0;  /* Remove horizontal padding from section */
-    background: #e6f0ff;  /* Matching the body background */
+    background: #dde9ff;  /* Matching the body background */
     display: flex;
     justify-content: center;
     align-items: center;
