@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #e6f0ff;  /* Changed to a deeper, more contrasting blue */
+    font-family: 'Roboto', sans-serif;
+    min-height: 100vh;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 3rem 2rem;
+    text-align: center;
+    position: relative;
+}
+
+/* New wrapper for the video */
+.video-wrapper {
+    width: 95%;  /* Reduced from 100vw to be more like the image */
+    max-width: 900px;
+    margin: 2rem auto 0;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+/* Add browser-like header */
+.video-wrapper::before {
+    content: '';
+    display: block;
+    height: 40px;
+    background: #f1f3f4;
+    border-bottom: 1px solid #ddd;
+    position: relative;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: #000;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 3rem;
+    line-height: 1.5;
+}
+
+.getting-started-section {
+    text-align: left;
+    margin-top: 2rem;
+    width: 100%;  /* Ensures section takes full container width */
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+    color: #000;
+}
+
+.step {
+    margin-bottom: 2rem;
+}
+
+h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: #000;
+}
+
+p {
+    margin: 0;
+    color: #666;
+    line-height: 1.5;
+}
+
+.video-section {
+    width: 100%;
+    padding: 2rem 0;  /* Remove horizontal padding from section */
+    background: #e6f0ff;  /* Matching the body background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.video-container {
+    width: 95%;  /* Slightly adjusted width */
+    margin: 0 auto;  /* This will center the container with equal spacing */
+}
+
+.demo-text {
+    text-align: center;
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 2rem;
+}
+
+.browser-content {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;  /* Ensure content takes full width of container */
+}
+
+video {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0;
+    padding: 0;
+    border: none;
+} 
