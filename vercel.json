@@ -7,6 +7,10 @@
       {
         "src": "/uninstall",
         "dest": "/uninstall.html"
+      },
+      {
+        "src": "/feedback",
+        "dest": "/feedback.html"
       }
     ]
   }
